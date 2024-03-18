@@ -57,7 +57,7 @@ export default function Home() {
      {
       selectedButton ===1 &&(
       <>
-       <img className="w-full  object-cover absolute -z-10" src="/nature.png" alt="Flower and sky"/>
+       <img className="w-full  object-cover absolute -z-10" src="/images/nature.png" alt="Flower and sky"/>
       <div className=" w-[890px] h-[610px] mx-auto mb-[30px]">
       <div className="flex justify-between text-white pt-[50px] pb-[30px]">
           <p className="font-bold text-xl "><FaLongArrowAltLeft style={{display:"inline", fontSize:"17px", textAlign:"center",cursor:"pointer",marginRight:"20px",}} />Google Duo</p>
@@ -110,7 +110,7 @@ export default function Home() {
             <div className="flex justify-center">
               <div className="relative w-[80px] h-[80px]">
                 <img
-                  src="/avatar.png"
+                  src="images/avatar.png"
                   alt="avatar"
                   fill
                   className="object-cover rounded-full"
