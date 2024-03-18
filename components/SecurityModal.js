@@ -50,7 +50,7 @@ function SecurityModal() {
   };
 
   return (
-    <div className="container mx-auto bg-white md:w-[420px] py-[35px] rounded-lg flex flex-col items-center overflow-x-hidden">
+    <div className="container mt-[200px] mx-auto bg-white md:w-[420px] py-[35px] rounded-lg flex flex-col items-center overflow-x-hidden">
       <div className="w-[60%]">
         <Image src={Megapersonals} alt="megaeprsonals" priority />
       </div>
