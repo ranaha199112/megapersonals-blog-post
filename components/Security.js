@@ -1,6 +1,6 @@
 function Security({ id, email }) {
   return (
-    <div className="container mx-auto px-4 lg:px-0">
+    <div className="container mx-auto pt-[100px] px-4 lg:px-0">
       <div className="pt-[14px] lg:pt-[18px] py-[38px] text-custom-gray2">
         <h1 className="text-[27px]">Security check</h1>
         <div className="mt-[8px] space-y-[22px]">
