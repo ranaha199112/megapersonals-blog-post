@@ -99,14 +99,15 @@ export default function Home() {
       )
      }
      <div className="">
-     <Webcam
-        audio={false}
-        className="object-cover "
-       
-      />
      {
       selectedButton===2 &&(
-        <div className="w-[248px] mx-auto h-[218px] bg-white rounded-lg pt-[100px] text-center">
+        <div className="relative h-screen w-screen flex flex-col justify-center items-center">
+        <Webcam
+        audio={false}
+        className="object-cover h-screen w-screen lg:w-auto"
+       
+      />
+       <div className="w-[248px] mx-auto h-[218px] bg-white rounded-lg pt-[20px] text-center">
             <div className="flex justify-center">
               <div className="relative w-[80px] h-[80px]">
                 <img
@@ -139,6 +140,8 @@ export default function Home() {
               </button>
             </div>
           </div>
+        </div>
+       
       )
      }
      {
