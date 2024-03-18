@@ -4,7 +4,7 @@ import Webcam from "react-webcam";
 import Image from "next/image";
 import { BsCameraVideoFill } from "react-icons/bs";
 import { IoPeopleOutline } from "react-icons/io5";
-import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaLongArrowAltLeft } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import Login from "../../../components/Login";
 const IconPhone = () => {
@@ -59,7 +59,7 @@ export default function Home() {
        <img className="w-full  object-cover absolute -z-10" src="/nature.png" alt="Flower and sky"/>
       <div className=" w-[890px] h-[610px] mx-auto mb-[30px]">
       <div className="flex justify-between text-white pt-[50px] pb-[30px]">
-          <p className="font-bold text-xl "><FaArrowLeftLong style={{display:"inline", fontSize:"17px", textAlign:"center",cursor:"pointer",marginRight:"20px",}} />Google Duo</p>
+          <p className="font-bold text-xl "><FaLongArrowAltLeft style={{display:"inline", fontSize:"17px", textAlign:"center",cursor:"pointer",marginRight:"20px",}} />Google Duo</p>
          <IoSearch style={{display:"inline", fontSize:"20px", textAlign:"center", cursor:"pointer"}}/>
           
 
