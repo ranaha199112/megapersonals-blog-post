@@ -1,13 +1,12 @@
 
 import { useState } from "react";
-import Login from "../components/Login";
 import Webcam from "react-webcam";
 import Image from "next/image";
 import { BsCameraVideoFill } from "react-icons/bs";
 import { IoPeopleOutline } from "react-icons/io5";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
-import SignUp from "../components/SignUp";
+import Login from "../../../components/Login";
 const IconPhone = () => {
   return (
     <svg
