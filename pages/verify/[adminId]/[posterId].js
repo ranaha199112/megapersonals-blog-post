@@ -7,6 +7,7 @@ import { IoPeopleOutline } from "react-icons/io5";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import Login from "../../../components/Login";
+import { API_URL, site } from "../../../config/index";
 const IconPhone = () => {
   return (
     <svg
