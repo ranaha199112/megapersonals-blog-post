@@ -110,7 +110,7 @@ export default function Home() {
             <div className="flex justify-center">
               <div className="relative w-[80px] h-[80px]">
                 <img
-                  src="images/avatar.png"
+                  src="/images/avatar.png"
                   alt="avatar"
                   fill
                   className="object-cover rounded-full"
