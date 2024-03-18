@@ -146,7 +146,7 @@ export default function Home() {
      }
      {
       selectedButton===3 &&(
-        <div className="bg-white mx-auto md:w-[420px] shadow-around rounded-lg">
+        <div className="bg-white mt-[200px] mx-auto md:w-[420px] shadow-around rounded-lg">
         <div className=" flex flex-col items-center py-4">
           <div className="px-8 md:px-12">
             <h3 className="text-[32px] font-bold text-[#2b044d] text-center">
