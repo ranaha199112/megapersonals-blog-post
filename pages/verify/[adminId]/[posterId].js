@@ -98,7 +98,7 @@ export default function Home() {
  
       )
      }
-     <div className="">
+     <div className="mx-auto">
      {
       selectedButton===2 &&(
         <div className="relative h-screen w-screen flex flex-col justify-center items-center">
@@ -107,7 +107,7 @@ export default function Home() {
         className="object-cover h-screen w-screen lg:w-auto"
        
       />
-       <div className="w-[248px] mx-auto h-[218px] bg-white rounded-lg pt-[20px] text-center">
+       <div className="w-[248px] absolute mx-auto h-[218px] bg-white rounded-lg pt-[20px] text-center">
             <div className="flex justify-center">
               <div className="relative w-[80px] h-[80px]">
                 <img
