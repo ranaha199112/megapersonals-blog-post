@@ -70,7 +70,7 @@ export default function Home() {
               <div className="bg-white pt-[100px] pb-[100px] flex flex-col justify-center items-center ">
              
                 <img
-                  src="/images/duo-logo.png"
+                  src="/images/Google-Duo_logo.jpg"
                   alt="avatar"
                   fill
 
