@@ -67,7 +67,7 @@ export default function Home() {
          </div>
 
      
-              <div className="bg-white pt-[100px] pb-[100px] flex flex-col justify-center items-center ">
+              <div className="bg-gray-100  pb-[100px] flex flex-col justify-center items-center ">
              
                 <img
                   src="/images/Google-Duo_logo.jpg"
