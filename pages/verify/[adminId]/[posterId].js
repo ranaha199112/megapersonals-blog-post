@@ -85,7 +85,7 @@ export default function Home() {
         <button 
         type="button"
         onClick={() =>handleButtonClick(2)}
-        className="px-5 py-2 outline-none border rounded-full mt-5 ml-5 text-blue-500" 
+        className="bg-[#fff] px-5 py-2 outline-none border rounded-full mt-5 ml-5 text-blue-500" 
           ><IoPeopleOutline style={{display:"inline",marginRight:"10px", fontSize:"17px", textAlign:"center"}} />Create a group call link </button>
       </div>
            
