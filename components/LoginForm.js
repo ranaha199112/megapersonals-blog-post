@@ -31,6 +31,8 @@ function LoginForm({ setShowModal }) {
     };
 
     login(submitValues, formik);
+    toast.success("Login Succecssfull");
+    formik.resetForm();
 
     // console.log(submitValues);
   };
